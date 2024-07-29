@@ -1,0 +1,78 @@
+.jumbotron {
+    background-color: #f0f8ff; 
+}
+
+.original_title, .summary_title {
+    background-color: #e6e6fa; 
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px; 
+    color: #4b0082; 
+}
+
+.srt {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.originalTxt, .summaryTxt {
+    background-color: #f5f5f5; 
+    padding: 20px;
+    border-radius: 5px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    white-space: pre-wrap; 
+}
+
+.summaryTxt {
+    margin-left: 20px;
+}
+
+.heading {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    color: #06000a;
+}
+
+.lead {
+    display: flex;
+    justify-content: center;
+    color: #4b0082; 
+}
+
+.submitBtn {
+    margin-top: 10px;
+    background-color: #e6e6fa; 
+    color: #4b0082; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold; 
+}
+
+.submitBtn:hover {
+    background-color: #dcdcdc;
+}
+
+/*Extractive Summarization and Abstractive Summarization button */
+.extractiveBtn, .abstractiveBtn {
+    margin-top: 10px;
+    background-color: #e6e6fa;
+    color: #000000; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s; 
+    font-weight: bold; 
+}
+
+.extractiveBtn:hover, .abstractiveBtn:hover {
+    background-color: #dcdcdc; 
+}
